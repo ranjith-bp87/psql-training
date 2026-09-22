@@ -32,10 +32,10 @@ psql -d shop -f 01_shop_schema.sql
 
 ### 3. Populate Sample Data
 
-Run `load_large.sql` to populate the dataset (~2,000 customers and ~50,000 orders):
+Run `02_load_data.sql` to populate the dataset (~2,000 customers and ~50,000 orders):
 
 ```bash
-psql -d shop -f load_large.sql
+psql -d shop -f 02_load_data.sql
 ```
 
 ---
